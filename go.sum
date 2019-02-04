@@ -1,0 +1,6 @@
+github.com/tinygo-org/tinygo v0.0.0-20190201122632-930de54dc569 h1:jq83IC5zNoqbnt78H9wTqZDmrQJMf3fb4UUV5rNtrnU=
+github.com/tinygo-org/tinygo v0.0.0-20190201122632-930de54dc569/go.mod h1:99MkMVIujB+GhZTg80Qdtyod7338rJcMGhevtlSfl0I=
+golang.org/x/tools v0.0.0-20190202235157-7414d4c1f71c h1:6Axm8Kqba7gHaI7My7snFynbKaVEYko0z35GPOJygUA=
+golang.org/x/tools v0.0.0-20190202235157-7414d4c1f71c/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
+tinygo.org/x/go-llvm v0.0.0-20190122141454-f420620d1a0f h1:+HBhw4UiV9LnR9lYn6Pd8KnXG5CTvxfI7DmrUPQmWYw=
+tinygo.org/x/go-llvm v0.0.0-20190122141454-f420620d1a0f/go.mod h1:fv1F0BSNpxMfCL0zF3M4OPFbgYHnhtB6ST0HvUtu/LE=
