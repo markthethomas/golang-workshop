@@ -162,6 +162,7 @@ export default class Presentation extends React.Component {
                         <ListItem>Apple</ListItem>
                         <ListItem>Dropbox</ListItem>
                         <ListItem>Heroku</ListItem>
+                        <ListItem>Soon: YOU!</ListItem>
                     </List>
                 </Slide>
 
@@ -341,22 +342,31 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide>
-                    <Heading>Hello, world!</Heading>
+                    <Heading>Installing</Heading>
+                </Slide>
+
+                <Slide>
                     <Layout>
                         <Fill>
-                            <CodePane
-                                textSize={32}
-                                lang="go"
-                                source={`
-package main
-import "fmt"
-func main() {
-    fmt.Println("Hello, World!")
-}`}
-                            />
+                            <List>
+                                <ListItem>
+                                    https://golang.org/doc/install
+                                </ListItem>
+                                <ListItem>
+                                    <code>brew install go</code>
+                                </ListItem>
+                                <ListItem>
+                                    <code>export GOPATH=$(go env GOPATH)</code>
+                                </ListItem>
+                            </List>
                         </Fill>
                     </Layout>
                 </Slide>
+
+                <Slide>
+                    <Heading>Hello, world!</Heading>
+                </Slide>
+
                 <Slide>
                     <Heading>Hands-on</Heading>
                 </Slide>
