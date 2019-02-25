@@ -1,15 +1,15 @@
 {
-  "main.js": "/static/js/main.d0a22b69.chunk.js",
-  "main.js.map": "/static/js/main.d0a22b69.chunk.js.map",
-  "static/css/1.7759f8fb.chunk.css": "/static/css/1.7759f8fb.chunk.css",
-  "static/js/1.4846cc7b.chunk.js": "/static/js/1.4846cc7b.chunk.js",
-  "static/js/1.4846cc7b.chunk.js.map": "/static/js/1.4846cc7b.chunk.js.map",
+  "main.js": "/static/js/main.55e14877.chunk.js",
+  "main.js.map": "/static/js/main.55e14877.chunk.js.map",
+  "static/css/1.2fb38eef.chunk.css": "/static/css/1.2fb38eef.chunk.css",
+  "static/js/1.cdd0b394.chunk.js": "/static/js/1.cdd0b394.chunk.js",
+  "static/js/1.cdd0b394.chunk.js.map": "/static/js/1.cdd0b394.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/1.7759f8fb.chunk.css.map": "/static/css/1.7759f8fb.chunk.css.map",
+  "static/css/1.2fb38eef.chunk.css.map": "/static/css/1.2fb38eef.chunk.css.map",
   "static/media/gopl.png": "/static/media/gopl.7bf148f1.png",
   "static/media/logo.svg": "/static/media/logo.158a5f18.svg",
   "index.html": "/index.html",
-  "precache-manifest.e493654ab1df3bb64aceb4eff889c12e.js": "/precache-manifest.e493654ab1df3bb64aceb4eff889c12e.js",
+  "precache-manifest.b8e76f731a4176c092a2f24ccd4c419c.js": "/precache-manifest.b8e76f731a4176c092a2f24ccd4c419c.js",
   "service-worker.js": "/service-worker.js"
 }

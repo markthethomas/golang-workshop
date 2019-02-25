@@ -364,11 +364,27 @@ export default class Presentation extends React.Component {
                 </Slide>
 
                 <Slide>
+                    <Heading>Agenda</Heading>
+                    <List>
+                        <ListItem>Hello World!</ListItem>
+                        <ListItem>echo server</ListItem>
+                        <ListItem>tree (cli tool)</ListItem>
+                        <ListItem>decide on group project</ListItem>
+                    </List>
+                </Slide>
+
+                <Slide>
                     <Heading>Hello, world!</Heading>
                 </Slide>
 
                 <Slide>
-                    <Heading>Hands-on</Heading>
+                    <Heading>Hands-on: echo server </Heading>
+                </Slide>
+                <Slide>
+                    <Heading>Hands-on: tree</Heading>
+                </Slide>
+                <Slide>
+                    <Heading>project: what to build?</Heading>
                 </Slide>
             </Deck>
         );
