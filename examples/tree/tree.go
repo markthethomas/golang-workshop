@@ -1,4 +1,4 @@
-package main
+package tree
 
 import (
 	"fmt"
@@ -17,7 +17,7 @@ func main() {
 
 	// for each arg, recurse
 	for _, arg := range args {
-		err := tree(arg, "")
+		err := Tree(arg, "")
 		if err != nil {
 			log.Printf("tree %s: %v\n", arg, err)
 		}
@@ -25,7 +25,7 @@ func main() {
 }
 
 // tree is called with a root and a
-func tree(root, indent string) error {
+func Tree(root, indent string) error {
 	// check if the file handle is there
 	fi, err := os.Stat(root)
 	if err != nil {
@@ -64,7 +64,7 @@ func tree(root, indent string) error {
 			fmt.Printf(indent + "├──")
 		}
 		// recurse with each of the names and add the indentation
-		if err := tree(filepath.Join(root, name), indent+add); err != nil {
+		if err := Tree(filepath.Join(root, name), indent+add); err != nil {
 			return err
 		}
 	}

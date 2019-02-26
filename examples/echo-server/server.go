@@ -12,7 +12,7 @@ type respsonse struct {
 
 // JSONEcho echoes back what you send to it (in JSON format)
 func JSONEcho(w http.ResponseWriter, r *http.Request) {
-	if r.Method != "POST" {
+	if r.Method != http.MethodPost {
 		w.WriteHeader(http.StatusBadRequest)
 		w.Write([]byte("Error; invalid method. Use POST"))
 		return
